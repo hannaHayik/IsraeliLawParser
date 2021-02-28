@@ -8,7 +8,7 @@ Requirments:
     2.2 fuzzywuzzy FROM https://pypi.org/project/fuzzywuzzy/
     2.3 tqdm FROM https://pypi.org/project/tqdm/
   3. Put all files on one folder that should contain:
-    3.1 PDF_DOC (input folder)
+    3.1 PDF_DOC (input folder) (You can download the input folder from here https://drive.google.com/drive/folders/1bvjtlnGQZxYbSWumEKtDD4lKeqKImeBf)
     3.2 output (output folder)
     3.3 project2.py (Python3 script)
 
