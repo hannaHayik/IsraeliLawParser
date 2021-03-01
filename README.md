@@ -7,7 +7,7 @@ Requirments:
     1. docx2python FROM https://pypi.org/project/docx2python/ <br/>
     2. fuzzywuzzy FROM https://pypi.org/project/fuzzywuzzy/ <br/>
     3. tqdm FROM https://pypi.org/project/tqdm/ <br/>
-  3. Put all files on one folder that should contain: <br/>
+  3. Put all files in one folder that should contain: <br/>
     1. PDF_DOC (input folder) (You can download the input folder from here https://drive.google.com/drive/folders/1bvjtlnGQZxYbSWumEKtDD4lKeqKImeBf) <br/>
     2. output (output folder) <br/>
     3. project2.py (Python3 script) <br/>
