@@ -3,7 +3,7 @@ Parser &amp; Tagger for Israeli laws documents
 
 Goal: Convert Israeli law documents from DOC format (random strings) into tagged XML files with proper heirarchy 
 
-Input: PDF_DOC (input folder) (You can download the input folder from here https://drive.google.com/drive/folders/1bvjtlnGQZxYbSWumEKtDD4lKeqKImeBf)
+Input: PDF_DOC (input folder) (You can download the input folder from here https://drive.google.com/drive/folders/1bvjtlnGQZxYbSWumEKtDD4lKeqKImeBf) <br/>
 Output: Israeli laws tagged as XML files (output files also are uploaded to our git)
 
 Requirments: 
