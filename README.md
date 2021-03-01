@@ -1,6 +1,11 @@
 # IsraeliLawParser
 Parser &amp; Tagger for Israeli laws documents
 
+Goal: Convert Israeli law documents from DOC format (random strings) into tagged XML files with proper heirarchy 
+
+Input: PDF_DOC (input folder) (You can download the input folder from here https://drive.google.com/drive/folders/1bvjtlnGQZxYbSWumEKtDD4lKeqKImeBf)
+Output: Israeli laws tagged as XML files (output files also are uploaded to our git)
+
 Requirments: 
   1. Install LibreOffice in 'C:\Program Files\' OR change the path in project2.py to wherever you install it
   2. Install Python3 libraries (installion with PIP would be much easier):<br/>
