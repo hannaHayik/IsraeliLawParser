@@ -718,7 +718,7 @@ def create_dict():
         tree.write(f, encoding="utf-8")
 
 
-# TODO: upgrades: timelines for each law, connecting laws references, ordering HAGDAROT sections
+# TODO: upgrades timelines for each law, connecting laws references, ordering HAGDAROT sections
 def main():
     # input folder
     main_path = os.path.join(os.getcwd(), 'PDF_DOC')
