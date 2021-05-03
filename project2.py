@@ -187,16 +187,12 @@ def removeDuplicates(listToSort):
 # specified for our project, removes duplicate strings and empty strings
 def removeInnerDups(lst):
     if all_elements_are_lists(lst):
-        tmp = []
-        for x in lst:
-            tmp.append(removeInnerDups(x))
-        return tmp
+        tmp = [removeInnerDups(x) for x in lst]
     else:
         tmp = list(dict.fromkeys(lst))
         while tmp.count('') > 0:
             tmp.remove('')
-        return tmp
-
+    return tmp
 
 # removes arrays from the sort of [[]] or [] or [[[]]]
 def removeEmptyArrs(nested_lists):
@@ -226,7 +222,7 @@ def sliceString(param, start, stop):
         return ''
     res = ''
     while start < stop:
-        res = res + param[start]
+        res += param[start]
         start = start + 1
     return res
 
